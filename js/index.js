@@ -16,7 +16,7 @@ function checar(){
 }
 
 function eliminar(){
-    let grandpa_div = $(this).parent().parent()
-    grandpa_div.remove()
+    let grandpa = $(this).parent().parent()
+    grandpa.remove()
 }
 
